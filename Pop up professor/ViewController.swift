@@ -14,8 +14,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+        
+    @IBOutlet weak var QuestionTextField: UITextField!
+    
+    QuestionTextField.delegate = self
+    
+    }
+extension ViewController : UITextFieldDelegate {
+func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    
+    textField.resignFirstResponder()
+    return true
+
+    
 
 
-}
 
 //test for justin 
