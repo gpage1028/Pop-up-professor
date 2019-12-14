@@ -60,9 +60,9 @@
 			children = (
 				DE73100C239F362600CEEAA1 /* AppDelegate.swift */,
 				DE73100E239F362600CEEAA1 /* SceneDelegate.swift */,
-				DE731010239F362600CEEAA1 /* ViewController.swift */,
 				DE731012239F362600CEEAA1 /* Main.storyboard */,
 				DE731018239F362A00CEEAA1 /* Assets.xcassets */,
+				DE731010239F362600CEEAA1 /* ViewController.swift */,
 				DE73101A239F362A00CEEAA1 /* LaunchScreen.storyboard */,
 				DE73101D239F362A00CEEAA1 /* Info.plist */,
 				DE731015239F362600CEEAA1 /* Pop_up_professor.xcdatamodeld */,
